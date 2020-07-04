@@ -1,0 +1,191 @@
+
+            * {
+           box-sizing: border-box;
+              }
+               body {
+            margin: 0;
+            }
+            /*style the header*/
+            .header {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
+                padding:2rem;
+                /* margin: auto 0;
+                text-align: center; */
+            }
+            #showcase{
+                background: #333 url("./img/profile-pic.jpg") no-repeat center center/cover;
+                height: 100vh;
+                color: rgb(173, 168, 146);
+            }
+            .showcase-content{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                padding: 0 2rem;
+                position: absolute;
+                top:60px;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0, 0, 0, 0.7);
+                
+                }
+                .l-heading{
+                    font-size: 4rem;
+                    margin-bottom: 0.75rem;
+                    line-height: 1.1;
+                }
+                            
+                .lead{
+                    font-size: 2rem;                
+                    margin-bottom: 2rem;
+                    color: chocolate;
+                    text-align: center;
+                }
+
+                /* .container{ */
+                    /* max-width: 1200px;
+                    margin: auto;
+                    padding: 0 0.5rem;
+                    overflow: hidden; */
+                /* } */
+
+                .profile-title{
+                    border: 1px solid grey;
+                    border-radius: 5px;
+                    border-bottom: 1px solid black;
+                    outline: none;
+                    background-color: black;
+                    color: white;
+                    padding: 0.5rem;
+                    text-align: center;
+                    margin: 0;
+                }
+
+                #profile{
+                    height: 100vh;
+                    padding-top: 17px;
+                }
+
+                .profile-content{
+                    border: 1px solid goldenrod;
+                    background-color: #333;
+                    height: 100%;
+                    color: white;
+                    margin: 0;
+                    padding: 1rem 2rem ;
+                }
+        
+            
+/* Style top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:whitesmoke;
+  position: sticky;
+  top: 0;
+  z-index:1;
+}
+
+/* Style the topnav links */
+.topnav a {
+  display: block;
+  float:left;
+  color: chocolate;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#friends{
+    margin-top: 5rem;
+    background-color: black;
+    color: white;
+}
+
+#pictures{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+
+    /* height: 80%; */
+}
+.picture img{
+    height: 80%;
+    border-radius: 50%;
+    /* width: 100%; */
+}
+
+     /* create three unequal columns that floats next to each other*/
+            .column {
+                background-color: chocolate;
+                color:cornsilk;
+                float:left;
+                padding:0.625rem;
+                border:0.625rem;
+                height: 30rem;
+                width: 100%;
+            }
+            /* left and right column*/
+            .column.side {
+                width:25%;
+                /* height: 100%; */
+            }
+            /* middle column*/
+            .column.middle {
+                width:50%;
+                }
+                /* Clear floats after the columns */
+            .row:after {
+            content: "";
+            display: table;
+            clear: both;
+}
+                /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 600px) {
+            .column.side, .column.column.middle {
+                width: 100%;
+    }
+            }
+.main {
+    float: left;
+  width: 33.33%;
+  padding: 5px;
+  background-color: black;
+ }
+
+/* .row2{ */
+/* display: inline-block; */
+/* } */
+
+    /* Clearfix (clear floats) */
+    .row2{
+  content: "";
+  clear: both;
+  /* display: table; */
+}
+ #contacts{
+    margin-top:1rem;
+    height:50%;
+    background-color: chocolate;
+    color:white;
+}
+ /* Style the footer */
+.Footer {
+  background-color: chocolate;
+  padding: 15px;
+  text-align: center;
+  font-size:20px;
+  color:blanchedalmond;
+}
